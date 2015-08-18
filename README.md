@@ -10,7 +10,7 @@ Open-source dashboard template for plotly graphs, forked from the [keen.io dashb
 
 3. [Find the lines](https://github.com/plotly/dashboards/blob/master/index.html#L67) containing the text "iframe" and replace the URL with your plotly graph URL. Don't forget to add the ".embed" ([More about embedding plotly graphs with iframes](http://help.plot.ly/embed-graphs-in-websites/))
 
-4. Save index.html and double-click to open in your browser - You should see your plotly graphs in the dashboard now.
+4. Save index.html and double-click to open it in your browser.
 
 [Live example](https://plot.ly/python/dashboard/)
 
