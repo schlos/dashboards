@@ -24,14 +24,14 @@ See examples of adding a [moving average](https://plot.ly/python/range-slider/),
 
 To run postMessage examples locally on your desktop, you have to open index.html with a WebServer:
 
-1. Open your terminal and naviate to the dashboard folder where index.html is.
-
-2. Start SimpleHTTPServer:
-
-```python -m SimpleHTTPServer 8000```
-
 ![alt text](http://i.imgur.com/I2hlyLO.png "SimpleHTTPServer")
 
+1. Open your terminal and naviate to the dashboard folder where index.html is.
+
+2. Start SimpleHTTPServer ```python -m SimpleHTTPServer 8000```
+
 3. Navigate to [http://localhost:8000/](http://localhost:8000/) in your browser. You should see the dashboard from index.html.
+
+### Double slider JavaScript control
 
 ![alt text](http://i.imgur.com/xace7US.gif "Plotly postmessage slider")
