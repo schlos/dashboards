@@ -6,6 +6,7 @@ Open-source dashboard template for plotly graphs, forked from the [keen.io dashb
 ### Make your own dashboard
 
 
+
 1. [Download the code](https://github.com/plotly/dashboards/raw/master/Plotly%20Sample%20Dashboard.zip)
 
 2. Unzip the file and open index.html in a text editor
