@@ -1,6 +1,6 @@
 # Plotly dashboards
 
-Open-source dashboard template for Plotly graphs, forked from the [keen.io dashboard templates](http://keen.github.io/dashboards/layouts/).
+Open-source dashboard template for plotly graphs, forked from the [keen.io dashboard templates](http://keen.github.io/dashboards/layouts/).
 
 ### Make your own dashboard
 
@@ -8,7 +8,7 @@ Open-source dashboard template for Plotly graphs, forked from the [keen.io dashb
 
 2. Unzip the file and open index.html in a text editor
 
-3. [Find the lines](https://github.com/plotly/dashboards/blob/master/index.html#L67) containing the text "iframe" and replace the URL with the URL of your Plotly graphs. Don't forget to add the ".embed" ([More about embedding plotly graphs with iframes](http://help.plot.ly/embed-graphs-in-websites/))
+3. [Find the lines](https://github.com/plotly/dashboards/blob/master/index.html#L67) containing the text "iframe" and replace the URL with your plotly graph URL. Don't forget to add the ".embed" ([More about embedding plotly graphs with iframes](http://help.plot.ly/embed-graphs-in-websites/))
 
 4. Save index.html and double-click to open in your browser - You should see your plotly graphs in the dashboard now.
 
@@ -18,9 +18,9 @@ Open-source dashboard template for Plotly graphs, forked from the [keen.io dashb
 
 ### Advanced: Adding JavaScript controls
 
-You can add JavaScript controls to any Plotly graph iframe.
+You can add JavaScript controls to any Plotly graph iframe with [plotly's postMessage API](https://github.com/plotly/postMessage-API).
 
-See examples of adding a moving average, buttons, and click callbacks.
+See examples of adding a [moving average](https://plot.ly/python/range-slider/), [custom buttons](https://plot.ly/python/custom-buttons/), and [zoom callbacks](https://plot.ly/python/zoom-events/).
 
 To run postMessage examples locally on your desktop, you have to open index.html with a WebServer:
 
