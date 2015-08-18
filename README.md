@@ -5,8 +5,6 @@ Open-source dashboard template for plotly graphs, forked from the [keen.io dashb
 
 ### Make your own dashboard
 
-
-
 1. [Download the code](https://github.com/plotly/dashboards/raw/master/Plotly%20Sample%20Dashboard.zip)
 
 2. Unzip the file and open index.html in a text editor
@@ -20,6 +18,7 @@ Open-source dashboard template for plotly graphs, forked from the [keen.io dashb
 
 ![alt text](http://i.imgur.com/51BoA90.gif "Python powered dashboard")
 
+---
 
 ### Advanced: Adding JavaScript controls
 
@@ -39,6 +38,7 @@ To run postMessage examples locally on your desktop, you have to open index.html
 
 3. Navigate to [http://localhost:8000/](http://localhost:8000/) in your browser. You should see the dashboard from index.html.
 
+---
 
 ### Double slider JavaScript control
 
